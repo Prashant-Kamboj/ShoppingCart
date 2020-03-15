@@ -1,0 +1,71 @@
+.main{
+    background-color: white;
+    padding-right: 0;
+}
+.filter {
+    background-color: white;
+    height: auto;
+}
+.filter_body{
+    display: flex;
+    margin: 2rem auto;
+    justify-content: center;
+}
+
+.MuiSlider-thumb{
+color: white;
+border: 1px solid grey;
+}
+
+.MuiSlider-root{
+    width: 80%!important;
+}
+
+.slider{
+    display: block;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+}
+
+.MuiSlider-track {
+    height: 2.3px!important;
+    background-color: rgba(0, 162, 255, 0.938)!important;
+}
+
+.container-fluid{
+    padding-right: 0;
+}
+
+.apply_button{
+    border-radius: 8.2rem;
+    background-color: #26a8ff;
+    height: 4rem;
+    width: 100px;
+    margin: 2rem auto;
+}
+
+.apply_btn{
+    color: white;
+    padding: 1rem 0;
+    border: none;
+    background-color: transparent;
+    font-weight: 900;
+    outline: none;
+}
+
+.MuiSlider-root {
+    padding: 8px 0!important;
+}
+
+.filter-container{
+    width: auto;
+}
+
+.price-header{
+    display: flex;
+    flex-grow: inherit;
+    justify-content: space-between;
+}

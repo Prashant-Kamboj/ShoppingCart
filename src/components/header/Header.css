@@ -1,0 +1,57 @@
+.header{
+    width: 100%;
+    background-color: rgba(0, 162, 255, 0.938);
+    height: 5rem;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    z-index: 100;
+}
+
+.header-top{
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.cart{
+    /* cursor: pointer; */
+    position: relative;
+}
+
+.search{
+    display: flex
+}
+
+.search-bar{
+    margin-top: 1rem;
+    margin-right: -31px;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid white;
+    width: 200px;
+    color: white;
+    font-weight: 900;
+}
+
+.add-to-cart{
+    position: absolute;
+    left: 31px;
+    top: 3px;
+    border-radius: 50%;
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    color: white;
+    font-weight: 900;
+}
+
+.large_count{
+    font-size: 13px;
+    font-weight: 900;
+    padding: .2rem auto;
+}
+
+.small_count{
+    font-size: 13px;
+    font-weight: 900;
+    margin: .3rem auto;
+}

@@ -1,0 +1,42 @@
+.flex-container{
+    display: flex;
+    margin: 2rem auto;
+}
+
+.sort-box{
+    display: flex;
+    margin: 1.6rem auto;
+    justify-content: center;
+}
+
+.sort_order{
+    margin: auto 2rem;
+    cursor: auto;
+}
+
+.tab{
+    color: grey;
+    font-weight: 900;
+    margin: 0;
+    cursor: pointer;
+}
+
+.tab:active{
+    border-bottom: 2px solid #26a8ff;
+    cursor: pointer;
+    color: #26a8ff;
+}
+
+.tab_active{
+    border-bottom: 2px solid #26a8ff;
+    cursor: pointer;
+    color: #26a8ff;
+    font-weight: 900;
+    margin: 0;
+}
+
+.tab:hover{
+    border-bottom: 2px solid #26a8ff;
+    cursor: pointer;
+    color: #26a8ff;
+}
